@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/HW3Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 23a8ca667f4ad204dbb8527921bed710,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c9730f2cd6432704885e0479c9293f5a,
       type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 340e7ede87f080a43af26c277d8ced46,
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b3068e8050933e0458e918d64ec485af,
       type: 2}

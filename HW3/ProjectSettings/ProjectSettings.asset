@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 808db00ef635eab4292b6a58eb46e9a1
+  productGUID: 34f1216d0742861488d412b30c0f4f2d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -137,6 +137,8 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
+  visionOSBundleVersion: 1.0
+  tvOSBundleVersion: 1.0
   bundleVersion: 0.1.0
   preloadedAssets: []
   metroInputSource: 0
@@ -911,10 +913,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: ee5dd5c9-4e97-40e6-9115-9a3f26eefb17
+  cloudProjectId: ad5b222f-296b-4694-83db-91f0dffbd3f7
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: HW3
+  projectName: HW3 2024-02-27_17-41-25
   organizationId: kalasio
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
