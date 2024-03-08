@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
@@ -8,7 +6,6 @@ public class SetTurnTypeFromPlayerPref : MonoBehaviour
     public ActionBasedContinuousTurnProvider continuousTurn;
     public ActionBasedSnapTurnProvider snapTurn;
 
-    // Start is called before the first frame update
     void Start()
     {
         ApplyPlayerPref();
