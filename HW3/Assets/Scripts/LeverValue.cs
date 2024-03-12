@@ -3,11 +3,12 @@ using UnityEngine.XR.Content.Interaction;
 
 public class LeverValue : MonoBehaviour
 {
-    public Transform RightLever;
-    public Transform LeftLever;
+    public Transform rightLever;
+    public Transform leftLever;
     public Canvas firstCanvas;
     public Canvas secondCanvas;
     public Light[] pointLights;
+
     private bool currentLeftValue;
     private bool currentRightValue;
     public bool isLeversValid;
@@ -21,8 +22,8 @@ public class LeverValue : MonoBehaviour
 
     void Update()
     {
-        currentLeftValue = LeftLever.GetComponent<XRLever>().value;
-        currentRightValue = RightLever.GetComponent<XRLever>().value;
+        currentLeftValue = leftLever.GetComponent<XRLever>().value;
+        currentRightValue = rightLever.GetComponent<XRLever>().value;
 
         if (currentLeftValue == true ^ currentRightValue == true)
         {

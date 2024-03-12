@@ -5,6 +5,7 @@ public class MainMonitor : MonoBehaviour
 {
     public Transform levers;
     public Transform dial;
+    public Transform endButton;
     public Canvas firstCanva;
     public Canvas secondCanva;
     public Canvas thirdCanva;
@@ -19,6 +20,7 @@ public class MainMonitor : MonoBehaviour
         secondCanva.gameObject.SetActive(false);
         thirdCanva.gameObject.SetActive(false);
         fourthCanva.gameObject.SetActive(false);
+        endButton.gameObject.SetActive(false);
     }
 
     void Update()
@@ -32,6 +34,7 @@ public class MainMonitor : MonoBehaviour
             secondCanva.gameObject.SetActive(false);
             thirdCanva.gameObject.SetActive(false);
             fourthCanva.gameObject.SetActive(false);
+            endButton.gameObject.SetActive(false);
         }
         else if (dialValue == true && leversValue == false)
         {
@@ -39,6 +42,7 @@ public class MainMonitor : MonoBehaviour
             secondCanva.gameObject.SetActive(true);
             thirdCanva.gameObject.SetActive(false);
             fourthCanva.gameObject.SetActive(false);
+            endButton.gameObject.SetActive(false);
         }
         else if (dialValue == false && leversValue == true)
         {
@@ -46,6 +50,7 @@ public class MainMonitor : MonoBehaviour
             secondCanva.gameObject.SetActive(false);
             thirdCanva.gameObject.SetActive(true);
             fourthCanva.gameObject.SetActive(false);
+            endButton.gameObject.SetActive(false);
         }
         else if (dialValue == true && leversValue == true)
         {
@@ -53,6 +58,7 @@ public class MainMonitor : MonoBehaviour
             secondCanva.gameObject.SetActive(false);
             thirdCanva.gameObject.SetActive(false);
             fourthCanva.gameObject.SetActive(true);
+            endButton.gameObject.SetActive(true);
         }
     }
 }
